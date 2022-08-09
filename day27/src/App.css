@@ -1,0 +1,42 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.App {
+      padding: 40px;
+}
+
+.App button {
+      padding: 10px 20px;
+      margin-left: 10px;
+      font-size: 20px;
+}
+
+.App input {
+      padding: 10px;
+      outline: none;
+      font-size: 20px;
+}
+
+.colors__container {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 20px;
+}
+
+.color {
+      width: 160px;
+      height: 160px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      box-shadow: 1px 1px 14px 0px rgba(0, 0, 0, 0.8);
+      -webkit-box-shadow: 1px 1px 14px 0px rgba(0, 0, 0, 0.8);
+      -moz-box-shadow: 1px 1px 14px 0px rgba(0, 0, 0, 0.8);
+}
