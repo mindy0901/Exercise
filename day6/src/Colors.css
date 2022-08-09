@@ -1,0 +1,31 @@
+.colors {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-column-gap: 1px;
+      grid-row-gap: 1px;
+      width: 1200px;
+      margin-bottom: 60px;
+}
+
+.box {
+      height: 160px;
+      width: 160px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 60px;
+}
+
+.even {
+      background-color: rgb(57, 145, 57);
+}
+
+.odd {
+      background-color: rgb(182, 182, 76);
+}
+
+.prime {
+      background-color: rgb(239, 102, 102);
+}

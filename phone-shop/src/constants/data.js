@@ -1,0 +1,58 @@
+import { images } from "./images";
+
+export const phones = [
+      {
+            id: 545341,
+            name: "VinSmart Live",
+            screen: "AMOLED, 7.2\", Full HD+",
+            system: "Android 10.0 (Pie)",
+            frontCamera: "18MP",
+            backCamera: "Chính 48 MP & Phụ 8 MP, 5 MP",
+            ram: "4GB",
+            rom: "6GB",
+            img: images.phone3,
+            price: 6000000,
+            quantity: 1,
+      },
+      {
+            id: 434432,
+            name: "Iphone XS Max",
+            screen: "OLED, 6.5\", 1242 x 2688 Pixels",
+            system: "Android 11.0 (Oreo)",
+            frontCamera: "20MP",
+            backCamera: "Chính 48 MP & Phụ 8 MP, 5 MP",
+            ram: "4GB",
+            rom: "6GB",
+            img: images.phone1,
+            price: 30000000,
+            quantity: 1,
+      },
+      {
+            id: 43518723,
+            name: "Meizu 16Xs",
+            screen: "AMOLED, ULTRA HD+ 2232 x 1080 pixels",
+            system: "Android 9.0 (Pie)",
+            frontCamera: "40MP",
+            backCamera: "Chính 48 MP & Phụ 8 MP, 5 MP",
+            ram: "6GB",
+            rom: "12GB",
+            img: images.phone2,
+            price: 15000000,
+            quantity: 1,
+      },
+      {
+            id: 976644,
+            name: "VinSmart Live",
+            screen: "AMOLED, 4.2\", Full HD+",
+            system: "Android 9.0 (Pie)",
+            frontCamera: "20MP",
+            backCamera: "Chính 48 MP & Phụ 8 MP, 5 MP",
+            ram: "4GB",
+            rom: "6GB",
+            img: images.phone3,
+            price: 8000000,
+            quantity: 1,
+      },
+      
+
+]

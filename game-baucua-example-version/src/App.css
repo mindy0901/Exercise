@@ -1,0 +1,88 @@
+* {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+}
+
+.App {
+      width: 100%;
+      height: 100vh;
+}
+
+.container {
+      display: flex;
+      flex-direction: column;
+}
+
+.container__top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 40px;
+}
+
+.container__top__title {
+      font-size: 40px;
+}
+
+.container__bottom {
+      padding: 40px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+}
+
+.container__bottom__colors {
+      width: 1000px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+}
+
+.container__bottom__colors__item {
+      flex: 1;
+}
+
+.item__img img {
+      width: 200px;
+      height: 200px;
+}
+
+.container__bottom__play {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      height: 100%;
+}
+
+.bottom__play__randomColor {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 4px;
+}
+
+.bottom__play__randomColor img {
+      width: 50px;
+      height: 50px;
+}
+
+.container__bottom__play button {
+      width: 50px;
+      height: 50px;
+      margin-left: 20px;
+}
+
+.item__bet button {
+      width: 40px;height: 40px;
+      font-size: 24px;
+      margin: 0 8px;
+}
+
+.item__bet span {
+      font-size: 18px;
+      text-transform: capitalize;
+}

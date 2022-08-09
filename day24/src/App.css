@@ -1,0 +1,118 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.App {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      background-color: aliceblue;
+}
+
+.header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      color: #333;
+}
+
+.container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+      background-color: aliceblue;
+}
+
+.container__search {
+      width: 500px;
+      border: 1px solid lightgray;
+      height: 60px;
+      border-radius: 8px;
+      cursor: pointer;
+      overflow: hidden;
+}
+
+.container__search input {
+      width: 100%;
+      border: none;
+      height: 100%;
+      font-size: 18px;
+      outline: none;
+      padding: 20px;
+}
+
+.container__items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
+      padding: 20px;
+}
+
+.container__item {
+      display: flex;
+      width: 30%;
+      height: 420px;
+      border: 1px solid lightgray;
+      border-radius: 12px;
+      overflow: hidden;
+      flex-direction: column;
+      background-color: white;
+}
+
+.container__img {
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      padding: 10px;
+      margin-bottom: 20px;
+}
+
+.container__img img {
+      width: 100%;
+      height: 100%;
+}
+
+.container__details {
+      height: 100%;
+      height: 100%;
+      padding: 10px;
+}
+
+.container__details h3 {
+      font-size: 30px;
+}
+
+.container__details span {
+      font-size: 24px;
+      color: #333;
+      font-weight: 400;
+}
+
+.container__box {
+      display: flex;
+      flex-direction: column  ;
+      margin-top: 10px;
+}
+
+
+.languages__container {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+}
+
+.languages__container span {
+      padding-right: 4px;
+}
